@@ -46,7 +46,13 @@ const StudentForm = (props) => {
               component="span"
             />
           </FormGroup>
-          <Button variant="danger" size="lg" block="block" type="submit">
+          <Button
+            variant="danger"
+            size="md"
+            block="block"
+            type="submit"
+            style={{ marginTop: "10px" }}
+          >
             {props.children}
           </Button>
         </Form>

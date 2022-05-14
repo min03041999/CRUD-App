@@ -20,7 +20,7 @@ function App() {
             <Container>
               <Navbar.Brand>
                 <Link to={"/create-student"} className="nav-link">
-                  React Mern Stack App
+                  Student App
                 </Link>
               </Navbar.Brand>
               <Nav className="justify-content-end">
@@ -39,7 +39,7 @@ function App() {
           </Navbar>
         </header>
 
-        <Container>
+        <Container style={{ marginTop: "50px" }}>
           <Row>
             <Col md={12}>
               <Route exact path="/" component={CreateStudent} />
